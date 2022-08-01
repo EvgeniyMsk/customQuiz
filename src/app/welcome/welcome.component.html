@@ -1,0 +1,18 @@
+<div class="container bg-light py-5">
+  <h1 class="display-5 fw-bold">Добро пожаловать в систему тестирования</h1>
+  <h2 class="display-5 fw-bold">нашего отдела</h2>
+  <p class="col-md-8 fs-4">Этот тест содержит 9 вопросов. Каждый ответ дает 10 очков.</p>
+  <h4>Правила:</h4>
+  <ol>
+    <li>Правильный ответ дает 10 очков.</li>
+    <li>Неправильный ответ дает -10 очков.</li>
+    <li>У Вас 10 секунд для ответа на вопрос.</li>
+    <li>Перезагрузка страницы обнуляет прохождение теста.</li>
+  </ol>
+  <h1 style="font-family: cursive; text-align: center">Успехов в прохождении теста!</h1>
+  <div class="name col-md-4 my-3">
+    <label for="">Введите Ваше имя:</label>
+    <input #name type="text" id="" class="form-control">
+  </div>
+  <button class="btn-primary btn-lg" routerLink="/question" (click)="startQuiz()">Начать тест</button>
+</div>
